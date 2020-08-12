@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Awareness Campaign Website</title>
+
+    <!-- css -->
+    <link href="style.css" rel="stylesheet">
+
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#slides">SecurityAwareness</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collpase navbar-collapse" id="navbarResponsive">
+                <ul class ="navbar-nav ml-auto">
+                    <li class="nav-item-active">
+                        <a class="nav-link" href="#desc1">What is Cybercrime?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desc2">Why Cybersecurity Awareness Important?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#openInfo">Infographic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!--image slider-->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/cover1.png">
+            </div>
+            <div class="carousel-item">
+                <img src="img/cover4.png">
+                <div class="carousel-caption">
+                    <h1 class="text-light ">Most common Cybercrimes in 2020</h1>
+                    <a href="#welcome"><button type="button" class="btn btn-info btn-lg">Learn More</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/cover3.png">
+                <div class="carousel-caption">
+                    <h1 class="display-3">CyberAware Month</h1>
+                    <h3 class="bg-dark">Free quiz to test your knowleges on security</h3>
+                    <a href="https://forms.gle/EA4ah19jrgKNi1KP8"><button type="button" class="btn btn-primary btn-lg">Take Quiz</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jumbatron -->
+    <div id="desc1" class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">
+                    What is Cybercrime?
+                    Cybercrime is defined as a crime where a computer is the object of the crime or is used as a tool to commit an offense. A cybercriminal may use a device to access a user’s personal information, confidential business information, government information, or disable a device. It is also a cybercrime to sell or elicit the above information online.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#welcome"><button type="button" class="btn btn-outline-secondary btn-lg">Proceed</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Title Session-->
+    <div id="welcome" class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Common Types of Cybercrime</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- 3 Column Section-->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-id-card"></i>
+                <h3>Phishing</h3>
+                <p>A cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-android"></i>
+                <h3>Malware</h3>
+                <p>One of the most popular types of cybercrime because it can manifest itself into numerous formats. Malware could include anything from Trojan viruses to worms to spyware, and is still a key component in the majority of cybercriminal operations, including phishing attacks, credential breaches and more</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-user-secret"></i>
+                <h3>Identity Theft</h3>
+                <p>The deliberate use of someone else's identity, usually as a method to gain a financial advantage or obtain credit and other benefits in the other person's name, and perhaps to the other person's disadvantage or loss.
+                </p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+    <!-- 2 Column Section-->
+    <div id="desc2" class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>Why is Cybersecurity Awareness Important?</h2>
+                <p>Cyber security doesn’t just affect a person, but everyone around them. And in the globally connected world we live in, that literally is everyone. Infected devices have a way of infecting other devices, and compromised systems can make everyone vulnerable. So cyber security isn’t just about protecting you – it’s about protecting all of us.</p>
+                <p>The National Cyber Security Centre recently revealed that it has handled 658 attacks on 900 organisations, including schools, airports and emergency services, and said the attacks pose ‘strategic national security threats to the UK’. The spread of cyber-attacks should come as no surprise. The number of internet-enabled devices is skyrocketing. Already, there are seven billion internet-connected devices globally, and that number will more than triple to over 21 billion by 2025, IoT Analytics predicts.</p>
+                <br>
+                <h2>Methods to Improve Your Cybersecurity Awareness:</h2>
+                <p class="font-weight-bold">1) Join Formal Cybersecurity Training Program</p>
+                <p>One of the most direct ways to increase cybersecurity awareness is to join formal training programs or campaigns centered on cybersecurity practices. This program will provide formal awareness training and practices for you to recognize and prevent phishing and social engineering attacks helps you to be more aware of these cyber threats. Thus, reducing the likelihood that you will fall for these schemes in the future.</p>
+                <p class="font-weight-bold">2) Evaluate yourself</p>
+                <p>You should always get in touch with the issues related to cybersecurity from time-to-time. Therefore, you can test your security awareness by doing the online quiz to ensure that the lessons were actually learned. These quizzes can take numerous forms—from simple assessments that are related to your online behavior to randomized knowledge on how to prevent the relevant cyberattacks. </p>
+                <a href="https://forms.gle/EA4ah19jrgKNi1KP8" class="btn btn-primary">Take Quiz</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/poster1.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-4">
+
+    <!--Fixed Background-->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+            </div>
+        </div>
+    </figure>
+
+    <!--Inforgraphic section-->
+    <button id="openInfo" class="btn-outline-info btn-lg" data-toggle="collapse" data-target="#info">Click to View Infographic </button>
+    <div id="info" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-6">
+                    <img class="img-fluid" src="img/info.png">
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <img class="img-fluid" src="img/info2.png">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--Meet The Team-->
+    <div class="container-fluid padding" id="team">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Meet the Team</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!--Cards-->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/profile3.png">
+                    <hr>
+                    <div class="card-body">
+                        <h4 class="card-title">Jason Tan</h4>
+                        <p class="card-text">#Security Awareness Campaign Organizer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/profile1.png">
+                    <hr>
+                    <div class="card-body">
+                        <h4 class="card-title">Cheah Le Wei</h4>
+                        <p class="card-text">#Security Awareness Campaign Talker</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/profile2.png">
+                    <hr>
+                    <div class="card-body">
+                        <h4 class="card-title">Lai Xin Ee</h4>
+                        <p class="card-text">#Security Awareness Campaign Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+            <p class="lead">
+                We'd love your feedback to help to make our security awareness campaign better.
+            </p>
+        </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <a href="https://forms.gle/7krS6vkyhCmNBW3BA"><button type="button" class="btn btn-outline-success btn-lg ">Submit Feedback</button></a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="connect">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Address Information</h5>
+                    <hr class="light">
+                    <p>Kampus Utama</p>
+                    <p>Jalan Genting Kelang</p>
+                    <p>53300 Kuala Lumpur</p>
+                    <p>Wilayah Persekutuan Kuala Lumpur</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Business Operating Hours</h5>
+                    <hr class="light">
+                    <p>Weekdays: 9am - 5pm</p>
+                    <p>Saturday: 10am - 4pm</p>
+                    <p>Sunday: Closed</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Contacts</h5>
+                    <hr class="light">
+                    <p>03-3423-2312</p>
+                    <p>sawareness2020@gmail.com</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; securityawarenesscampaign</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
